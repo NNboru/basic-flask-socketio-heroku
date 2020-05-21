@@ -16,7 +16,7 @@ login to heroku <br>
 `heroku login`
 
 create your app <br>
-`heroku create mera-pehla-app-12345`	_you can use your custom name_
+`heroku create mera-pehla-app-12345`	_use your custom name here_
 
 deploying code to your app (ie. the code above) <br>
 `git push heroku master`
