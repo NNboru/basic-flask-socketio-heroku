@@ -1,4 +1,4 @@
-#An absolute basic python3 flask flask-socketio app deployment on heroku.
+# An absolute basic python3 flask flask-socketio app deployment on heroku.
 
 
 ### git - cloning this repo to your local computer (install git first)
