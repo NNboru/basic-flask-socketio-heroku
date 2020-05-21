@@ -3,7 +3,8 @@
 
 ### git - cloning this repo to your local computer (install git first)
 
-```git clone https://github.com/NNboru/basic-flask-socketio-heroku.git
+```
+git clone https://github.com/NNboru/basic-flask-socketio-heroku.git
 cd basic-flask-socketio-heroku
 ```
 
