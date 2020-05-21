@@ -3,50 +3,50 @@
 
 ### git - cloning this repo to your local computer (install git first)
 
-git clone https://github.com/NNboru/basic-flask-socketio-heroku.git
-`cd basic-flask-socketio-heroku`
+```git clone https://github.com/NNboru/basic-flask-socketio-heroku.git
+cd basic-flask-socketio-heroku```
 
 
 
 ### heroku CLI (install heroku CLI first)
 
 login to heroku
-`heroku login`
+```heroku login```
 
 create your app
-`heroku create mera-pehla-app-12345`		_you can use your custom name_
+```heroku create mera-pehla-app-12345```	_you can use your custom name_
 
 deploying code to your app (ie. the code above)
-`git push heroku master`
+```git push heroku master```
 it will show link of your app - https://mera-pehla-app-12345.herokuapp.com
 
 open by command shortcut
-`heroku open`
+```heroku open```
 
 view your logs
-`heroku logs`
+```heroku logs```
 
 
 
 ### other commands
 
 view your active apps
-`heroku apps`
+```heroku apps```
 
 destroying your app
-`heroku apps:destroy mera-pehla-app-12345 -c mera-pehla-app-12345`
+```heroku apps:destroy mera-pehla-app-12345 -c mera-pehla-app-12345```
 
 10 recent logs only (can be any number)
-`heroku logs -10`
+```heroku logs -10```
 
 logs sent by your app only
-`heroku logs --app`
+```heroku logs --app```
 
 view git-repo's linked to your git-remote
-`git remote -v`
+```git remote -v```
 
 just in case you have any other app linked to your git-remote
-`git remote remove heroku`
+```git remote remove heroku```
 linking your app to your git-remote
-`git remote add heroku https://git.heroku.com/mera-pehla-app-12345.git`
+```git remote add heroku https://git.heroku.com/mera-pehla-app-12345.git```
 
