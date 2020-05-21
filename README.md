@@ -13,7 +13,9 @@ cd basic-flask-socketio-heroku
 ### heroku CLI (install heroku CLI first)
 
 login to heroku
-```heroku login```
+```
+heroku login
+```
 
 create your app
 ```heroku create mera-pehla-app-12345```	_you can use your custom name_
